@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 style="text-align: center;"><img src="https://cdn3.iconfinder.com/data/icons/brain-games/1042/Tic-Tac-Toe-Game-grey.png" alt="X-O" style="width: 3%; height: 25px;"> Tic-Tac-Toe</h1>
+    </div>
+    <div class="container">
+        <div class="player-selection">
+            <input type="checkbox" id="switch" class="checkbox" />
+            <label for="switch" class="toggle">O    -    X</label>
+        </div>
+        <div class="dropdown">
+            <select id="modeSelect">
+                <option value="person">Play with Friend</option>
+                <option value="ai">Play with AI</option>
+            </select>
+        </div>
+        <div class="board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <div class="scoreboard">
+            <p><b><u>X Score</u>: </b><span id="xScore"><b>0</b></span></p>
+            <p><b><u>O Score</u>: </b><span id="oScore"><b>0</b></span></p>
+        </div>
+        <div id="aiLevel" class="ai-level">
+            <label>
+                <input type="radio" name="level" value="easy" checked> Easy
+            </label>
+            <label>
+                <input type="radio" name="level" value="medium"> Medium
+            </label>
+            <label>
+                <input type="radio" name="level" value="hard"> Hard
+            </label>
+        </div>
+        <button id="restartButton">Restart Game</button>
+        <div class="status" id="status"></div>
+
+        <g-popup id="winnerPopup">
+            <h2 id="popupMessage"></h2>
+        </g-popup>
+    </div>
+    <script src="g-popup.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
