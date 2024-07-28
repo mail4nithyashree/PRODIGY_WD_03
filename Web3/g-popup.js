@@ -18,17 +18,17 @@ class GPopup extends HTMLElement {
                 padding: 20px;
                 z-index: 1000;
                 display: none;
-                width: 300px; /* Default width */
-                height: 200px; /* Default height */
-                transition: all 0.20s ease-in-out; /* Add a transition for smooth resizing */
+                width: 300px;
+                height: 200px; 
+                transition: all 0.20s ease-in-out; 
             }
             .popup-wrapper.show {
                 display: block;
                 padding-top: 70px;
-                width: 145px; /* Increase width when shown */
-                height: 95px; /* Increase height when shown */
+                width: 145px; 
+                height: 95px; 
                 text-align: center;
-                background: linear-gradient(45deg, #d060d0 0%, #c698cf 65%, #cdb4db 100%); /* Change background color to coral */
+                background: linear-gradient(45deg, #d060d0 0%, #c698cf 65%, #cdb4db 100%); 
             }
             .popup-wrapper .close-button {
                 position: absolute;
