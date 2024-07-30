@@ -27,9 +27,9 @@ This project involves creating a tic-tac-toe web application using HTML, CSS, an
 <h3>How to Use</h3>
 <ul>
 <li><strong>Open the Game:</strong> Open the index.html file in your web browser to view the tic-tac-toe game.</li>
-<li><strong>Start Playing:</strong> Click on a cell to place your marker (X or O).</li>
-<li><strong>Check the Winner:</strong> The game will automatically check for a winner or a draw after each move.</li>
-<li><strong>Play Again:</strong> Reload the page to start a new game.</li>
+<li><strong>Start Playing:</strong> Click on a cell to place your marker (X or O). In Addition the player can choose between X or O using the toggle option.</li>
+<li><strong>Check the Winner:</strong> The game will automatically check for a winner or a draw after each move. And then a popup message will display on the screen to display the result.</li>
+<li><strong>Restart Game:</strong> Reloads the page to start a new game.</li>
 </ul>
 
 ![WhatsApp Image 2024-07-22 at 20 09 59_f400df4d](https://github.com/user-attachments/assets/65a54b48-923f-40f0-91b1-4792481a5cec)
